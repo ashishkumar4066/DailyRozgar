@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Customer SignUp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./stylesheet/app.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <a class="navbar-brand" href="/"><img src="./stylesheet/logo2.png" class="imagec" alt=""></a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Link</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+    <div class="c_sign p-5">
+        <div class="c_overlay">
+        <div class="container">
+        <h1 class="text-center text-white p-4">Customer SignUp</h1>
+            
+            <div class="login" style="width:50%;margin:25px auto">
+            <form class="mx-5" action="/customerSignUp" method="POST">
+            <div class="card p-4">
+                <div class="form-group">
+                    <input class="form-control text-center" type="text" name="username" value="" placeholder="Your User Name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control text-center" type="email" name="email" value="" placeholder="Your Email Id">
+                </div>
+                <div class="form-group">
+                    <input class="form-control text-center" type="password" name="password" value="" placeholder="Your Password">
+                </div>
+                <div class="justify-content-center">
+                    <button type="submit" class="text-center btn-block btn btn-outline-primary"><i class="fa fa-sign-out p-2"></i>Sign Up</button>
+                </div>      
+                <hr class=""><p class="text-center ">Or</p>
+                <div class="mb-2 form-group">
+                    <button type="" class="btn btn-danger form-control "><i class="fa fa-google-plus-official p-2"></i>SignUp Using Google</button>
+                </div>
+                <div class="form-group">
+                    <button type="" class="btn btn-success form-control"><i class="fa fa-github p-2"></i>Sign Up Using GitHub</button>
+                </div>
+                </div>
+            </form>
+        </div>
+       
+            </div>
+            
+            
+      
+        </div>
+    </div>  
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

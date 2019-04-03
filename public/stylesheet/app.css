@@ -1,0 +1,88 @@
+ .home-section {
+     background: url(construction-grinder-man-1216544.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .imagec {
+     height: 40px;
+     width: 150px;
+ }
+ 
+ .dark-overlay {
+     background: rgba(0, 0, 0, 0.7);
+ }
+ 
+ .c_sign {
+     background: url("https://www.dcuniverse.com/builds/200/images/preorder/preorder-background.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .w_sign {
+     background: url("https://coloredbrain.com/wp-content/uploads/2016/07/login-background.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .w_login {
+     background: url("https://tiedinmedia.com/wp-content/uploads/2015/03/sign-up-background.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .c_login {
+     background: url(b.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .w_self {
+     background: url("architectural-design-architecture-building-443383.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .w_self_overlay {
+     background: rgba(0, 0, 0, 0.7);
+ }
+ 
+ .c_self {
+     background: url("https://images.pexels.com/photos/1282173/pexels-photo-1282173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+     background-size: cover;
+     background-position: center;
+     min-height: 665px;
+ }
+ 
+ .size {
+     font-size: 60px;
+     margin-top: 90px;
+ }
+ 
+ .size1 {
+     font-size: 60px;
+     color: #003666;
+ }
+ 
+ .cont {
+     font-size: 60px;
+     font-family: 'Nunito', sans-serif;
+ }
+ 
+ .foo {
+     background-color: #333;
+ }
+ 
+ span.line {
+     width: 10%;
+     height: 3px;
+     background: #333;
+     display: block;
+     margin: 2.3em auto;
+ }
+ 
+ .size3 {
+     font-size: 20px;
+     text-align: justify;
+     font-family: 'Nunito', sans-serif;
+ }
