@@ -24,15 +24,11 @@ const getDelete = require("./controller/del");
 const async_error = require("express-async-errors");
 seeDB();
 
-const Nexmo = require('nexmo');
-const nexmo = new Nexmo({
-    apiKey: '6d6dfd9d',
-    apiSecret: 'sF4Y2TYRHIRnOb7Q'
-});
+
 
 mongoose.connect("mongodb://localhost/customer_worker_auth_details_v4");
 
-//mongoose.connect("mongodb://ashish:dailyrozgar123@ds155864.mlab.com:55864/daily_rozgar");
+
 
 app.use(cookieParser('mySecretKey'));
 app.use(express.static(__dirname + "/public"));
